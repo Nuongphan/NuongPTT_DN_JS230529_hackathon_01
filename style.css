@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;1,600&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+html {
+  width: 500px;
+  height: fit-content;
+  margin: 0 auto;
+}
+.reasons {
+  background-image: url(./Image/beach3.jpg);
+  width: 100%;
+  background-size: cover;
+  height: 270px;
+  position: relative;
+  margin-bottom: 25px;
+}
+.reasons > h4 {
+  border: none;
+  background-color: rgb(222, 167, 39);
+  opacity: 0.8;
+  height: 70px;
+  width: 350px;
+  vertical-align: middle;
+  padding-left: 17px;
+  padding-top: 10px;
+  position: absolute;
+  top: 63%;
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: calc(20px);
+  width: 450px;
+  margin: 0 auto;
+}
+figure > img {
+  width: 100%;
+  height: 148px;
+  object-fit: contain;
+  border-top: 5px solid rgb(222, 162, 60);
+}
+figcaption > p {
+  margin: 13px 0;
+}
+body {margin-top: 15px;}
