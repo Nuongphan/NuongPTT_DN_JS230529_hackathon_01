@@ -46,10 +46,10 @@ figcaption > p {
   margin: 13px 0;
 }
 body {margin-top: 15px;}
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 763px) {
 .reasons {
   background-image: url(./Image/beach3.jpg);
-  width: 70%;
+  width: 75%;
   background-size: cover;
   height: 200px;
   position: relative;
